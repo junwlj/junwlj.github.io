@@ -237,5 +237,11 @@
 <p><em>a.ndim</em> –产看数组的维度</p>
 <p><code>np.shape用于查看数组的形状，对于一个a = np.shape[0]返回的是数据的一维的数据</code></p>
 ]]></content>
+      <categories>
+        <category>numpy</category>
+      </categories>
+      <tags>
+        <tag>机器学习</tag>
+      </tags>
   </entry>
 </search>
