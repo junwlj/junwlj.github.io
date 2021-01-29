@@ -3,7 +3,7 @@
   <entry>
     <title>机器学习之Numpy.md</title>
     <url>/2020/12/04/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8BNumpy-md/</url>
-    <content><![CDATA[<h1 id="Numpy笔记"><a href="#Numpy笔记" class="headerlink" title="Numpy笔记"></a>Numpy笔记</h1><p>​        NumPy代表Numerical Python，它是一个由多维数组对象和一组处理这些数组的例程组成的库。使用NumPy，可以执行数组的数学和逻辑运算。</p>
+    <content><![CDATA[<p>​        NumPy代表Numerical Python，它是一个由多维数组对象和一组处理这些数组的例程组成的库。使用NumPy，可以执行数组的数学和逻辑运算。</p>
 <h3 id="一、使用Numpy"><a href="#一、使用Numpy" class="headerlink" title="一、使用Numpy"></a>一、使用Numpy</h3><p>​        在Python3中使用numpy时首先要导入numpy的包，即使用:</p>
 <figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line">np.__version__</span><br></pre></td></tr></table></figure>
 
@@ -241,6 +241,52 @@
       </categories>
       <tags>
         <tag>机器学习 Pandas</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo+next 个人博客美化.md</title>
+    <url>/2020/12/04/Hexo-next-%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96-md/</url>
+    <content><![CDATA[<p>个人博客创建好后，需要进行一系列的配置，来使得博客达到自己的要求，主要包括页面的优化工作与新建标签、分类等页面，以及添加字数统计等情况，主要操作如下所示:</p>
+<h4 id="1、更换主题"><a href="#1、更换主题" class="headerlink" title="1、更换主题"></a>1、更换主题</h4><p>Hexo的主题比较多，使用之后默认的主题是landscape，不喜欢可以更换该主题，在<a href="https://hexo.io/themes/">hexo</a>页面里面选择一款自己比较喜欢的主题进行使用，本博客使用的主题是经典<code>next</code>，在创建的博客项目的根目录下使用<code>git clone https://github.com/theme-next/hexo-theme-next themes/next</code>下载该主题到**theme/**目录下面，修改博客的站点配置文件<code>_config.yml</code>中的：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">theme: next</span><br></pre></td></tr></table></figure>
+
+<p>选择<strong><em>next</em></strong>主题样式，在主题配置文件<strong>__config.yml_</strong>文件中，找到<strong>Scheme Settings</strong>设置_next_分格样式：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># ---------------------------------------------------------------</span><br><span class="line"># Scheme Settings</span><br><span class="line"># ---------------------------------------------------------------</span><br><span class="line"></span><br><span class="line"># Schemes</span><br><span class="line"># scheme: Muse </span><br><span class="line">#scheme: Mist</span><br><span class="line">#scheme: Pisces</span><br><span class="line">scheme: Gemini  # 本博客使用主题为Gemini</span><br></pre></td></tr></table></figure>
+
+<h4 id="2、设置个人主页"><a href="#2、设置个人主页" class="headerlink" title="2、设置个人主页"></a>2、设置个人主页</h4><h5 id="2-1-添加博客描述"><a href="#2-1-添加博客描述" class="headerlink" title="2.1 添加博客描述"></a>2.1 添加博客描述</h5><p>在博客配置文件<code>_config.yml</code>文件做如下修改：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 设置博客属性信息</span><br><span class="line"># Site：</span><br><span class="line">title: Jun  #网站标题 博客站点名称 </span><br><span class="line">subtitle: DeepLearning&#x2F;MachineLearing  #网站副标题</span><br><span class="line">description: 花开堪折直须折，莫待无花空折枝   #个人描述，相当于签名</span><br><span class="line">keywords: 深度学习、计算机视觉、数据挖掘  #博客关键字</span><br><span class="line">author: JunLi # 作者名称</span><br><span class="line">language: zh-CN #设置博客语言</span><br><span class="line">timezone: Asia&#x2F;Shanghai # 设置时区</span><br></pre></td></tr></table></figure>
+
+<h5 id="2-2-添加更多菜单"><a href="#2-2-添加更多菜单" class="headerlink" title="2.2 添加更多菜单"></a>2.2 添加更多菜单</h5><p>在主题配置文件<code>_config.yml</code>文件中做如下修改：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: &#x2F; || fa fa-home   # 首页</span><br><span class="line">  about: &#x2F;about&#x2F; || fa fa-user # 关于</span><br><span class="line">  tags: &#x2F;tags&#x2F; || fa fa-tags  # 标签</span><br><span class="line">  categories: &#x2F;categories&#x2F; || fa fa-th  #分类</span><br><span class="line">  archives: &#x2F;archives&#x2F; || fa fa-archive #归档</span><br><span class="line">  #schedule: &#x2F;schedule&#x2F; || fa fa-calendar  #日历</span><br><span class="line">  #sitemap: &#x2F;sitemap.xml || fa fa-sitemap  #站点地图</span><br><span class="line">  #commonweal: &#x2F;404&#x2F; || fa fa-heartbeat #公益站点</span><br><span class="line"></span><br><span class="line"># Enable &#x2F; Disable menu icons &#x2F; item badges.</span><br><span class="line">menu_settings:  # 设置图标与内容量</span><br><span class="line">  icons: true  # 显示图标</span><br><span class="line">  badges: true  # 显示统计信息</span><br></pre></td></tr></table></figure>
+
+<h5 id="2-3-新增页面"><a href="#2-3-新增页面" class="headerlink" title="2.3 新增页面"></a>2.3 新增页面</h5><p>新的菜单在修改之后没有与之相对应的文件，需要手动生成<em>about、tags、categories</em>页面。</p>
+<ul>
+<li>生成<em>about</em>页面，<em>about</em>页面主要介绍博主信息与博客相关信息</li>
+</ul>
+<blockquote>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 在博客根目录下通过以下命令新增 about 页面</span><br><span class="line">hexo new page about</span><br></pre></td></tr></table></figure>
+
+<p>将会在**/hexo/source/<strong>生成</strong>about**文件夹，对该文件夹中的<code>index.md</code>文件依据自己的需求进行修改</p>
+</blockquote>
+<ul>
+<li>生成<em>tags</em>页面</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 按照上述过程，生成tags页面</span><br><span class="line">hexo new page tags</span><br><span class="line"># 并在&#x2F;souce&#x2F;tags&#x2F;index.md文件中添加头部：</span><br><span class="line">title: 标签</span><br><span class="line">date: 2020-06-29 11:35:42   # 时间随意</span><br><span class="line">type: &quot;tags&quot;                # 类型一定要为tags</span><br><span class="line">comments: false             # 提示这个页面不需要加载评论</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>生成<em>categories</em>页面</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 按照上述过程，生成categories页面</span><br><span class="line">hexo new page categories</span><br><span class="line"># 并在&#x2F;souce&#x2F;categories&#x2F;index.md文件中添加头部：</span><br><span class="line">title: 标签</span><br><span class="line">date: 2020-06-29 11:35:42   # 时间随意</span><br><span class="line">type: &quot;categories&quot;                # 类型一定要为tags</span><br><span class="line">comments: false             # 提示这个页面不需要加载评论</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>个人博客</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>next</tag>
       </tags>
   </entry>
 </search>

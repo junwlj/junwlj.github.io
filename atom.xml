@@ -6,7 +6,7 @@
   <link href="http://qiansky.cn/atom.xml" rel="self"/>
   
   <link href="http://qiansky.cn/"/>
-  <updated>2020-12-04T10:48:47.216Z</updated>
+  <updated>2020-12-04T16:02:39.490Z</updated>
   <id>http://qiansky.cn/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo+next 个人博客美化.md</title>
+    <link href="http://qiansky.cn/2020/12/04/Hexo-next-%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96-md/"/>
+    <id>http://qiansky.cn/2020/12/04/Hexo-next-%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BE%8E%E5%8C%96-md/</id>
+    <published>2020-12-04T15:01:38.000Z</published>
+    <updated>2020-12-04T16:02:39.490Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;个人博客创建好后，需要进行一系列的配置，来使得博客达到自己的要求，主要包括页面的优化工作与新建标签、分类等页面，以及添加字数统计等情况，主要操作如下所示:&lt;/p&gt;
+&lt;h4 id=&quot;1、更换主题&quot;&gt;&lt;a href=&quot;#1、更换主题&quot; class=&quot;headerlink&quot; title=&quot;1、更换主题&quot;&gt;&lt;/a&gt;1、更换主题&lt;/h4&gt;&lt;p&gt;Hexo的主题比较多，使用之后默认的主题是landscape，不喜欢可以更换该主题，在&lt;a href=&quot;https://hexo.io/themes/&quot;&gt;hexo&lt;/a&gt;页面里面选择一款自己比较喜欢的主题进行使用，本博客使用的主题是经典&lt;code&gt;next&lt;/code&gt;，在创建的博客项目的根目录下使用&lt;code&gt;git clone https://github.com/theme-next/hexo-theme-next themes/next&lt;/code&gt;下载该主题到**theme/**目录下面，修改博客的站点配置文件&lt;code&gt;_config.yml&lt;/code&gt;中的：&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="个人博客" scheme="http://qiansky.cn/categories/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="Hexo" scheme="http://qiansky.cn/tags/Hexo/"/>
+    
+    <category term="next" scheme="http://qiansky.cn/tags/next/"/>
+    
+  </entry>
   
   <entry>
     <title>机器学习之Pandas.md</title>
@@ -40,11 +62,11 @@
     <link href="http://qiansky.cn/2020/12/04/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8BNumpy-md/"/>
     <id>http://qiansky.cn/2020/12/04/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E4%B9%8BNumpy-md/</id>
     <published>2020-12-04T09:34:59.000Z</published>
-    <updated>2020-12-04T10:48:51.722Z</updated>
+    <updated>2020-12-07T09:33:42.590Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;Numpy笔记&quot;&gt;&lt;a href=&quot;#Numpy笔记&quot; class=&quot;headerlink&quot; title=&quot;Numpy笔记&quot;&gt;&lt;/a&gt;Numpy笔记&lt;/h1&gt;&lt;p&gt;​        NumPy代表Numerical Python，它是一个由多维数组对象和一组处理这些数组的例程组成的库。使用NumPy，可以执行数组的数学和逻辑运算。&lt;/p&gt;
-&lt;h3 id=&quot;一、使用Numpy&quot;&gt;&lt;a href=&quot;#一、使用Numpy&quot; class=&quot;headerlink&quot; title=&quot;一、使用Numpy&quot;&gt;&lt;/a&gt;一、使用Numpy&lt;/h3&gt;</summary>
+    <summary type="html">&lt;p&gt;​        NumPy代表Numerical Python，它是一个由多维数组对象和一组处理这些数组的例程组成的库。使用NumPy，可以执行数组的数学和逻辑运算。&lt;/p&gt;
+&lt;h3 id=&quot;一、使用Numpy&quot;&gt;&lt;a href=&quot;#一、使用Numpy&quot; class=&quot;headerlink&quot; title=&quot;一、使用Numpy&quot;&gt;&lt;/a&gt;一、使用Numpy&lt;/h3&gt;&lt;p&gt;​        在Python3中使用numpy时首先要导入numpy的包，即使用:&lt;/p&gt;</summary>
     
     
     
